@@ -1,4 +1,4 @@
-/* unidades preferidas para esse CSS
+/* /* unidades preferidas para esse CSS
 margin, padding: rem
 font-size: rem
 width: %
@@ -178,6 +178,7 @@ footer{
 }
 .a_footer{
 
+
 }
 .a_facebook{
     justify-content: center;
@@ -203,4 +204,4 @@ footer{
     .div_nav, ul{
         flex-wrap: wrap;
     }
-}
+} */

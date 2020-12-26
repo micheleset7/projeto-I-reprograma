@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;   
+}
+body{
+    font-family: "Montserrat";
+}
+li,a{
+    text-decoration: none;
+    color: #ffffff;
+    list-style: none;
+    margin: 1rem;
+}
+h1{
+    color: #ffffff;
+    font-size: 5rem;
+    text-align: center;
+    align-content: flex-end;
+}
+h2{
+    font-size: 3.6rem;
+    margin-bottom: 5rem;
+    color: #63458A;
+    margin-top: 4rem;
+}
+p{
+    font-size: 1.5rem;
+    color: #63458A;
+    height: auto;
+    width: 100%;
+}
+img{
+    max-width: 1000px;
+    height: auto;
+    width: 100%;
+}
+button{
+    width: 20%;
+    height: auto;
+    color: #ffffff;
+    background: #C083B9;
+    font-weight: bold;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.navegacao{ 
+background: rgb(111, 92, 163);
+display: flex;
+justify-content: space-around;
+width: 100%;
+height: 15vh;
+
+}
+.div_nav{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: flex-end;
+    align-items:  center;
+    
+}
+
+.img-m-maravilhosa{
+    width: 20%;
+    height: auto;
+    margin: 1rem;
+}
+.div_a{
+    font-size: 1.5rem;
+    align-items:  center;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
+.ul_nav{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    font-weight: bold; 
+}
+.banner{
+    background: url("https://arc-anglerfish-eu-central-1-prod-prisa.s3.amazonaws.com/public/EWBJ3SNWT5SWR2W45T5RF4KRC4.jpg") no-repeat 100% center;
+    background-size: cover;
+    max-width: 100%;
+    height: 55vh; 
+}
+main{
+display: block;
+justify-content: center;
+text-align: center;
+margin: 6rem;
+}
+.sessao_titulo{
+    display: block;
+}
+.div_titulo{
+    display: flex;
+}
+.img_titulo{
+    border: 0.2px solid #63458A;
+    border-radius: 1rem;
+    background: rgb(111, 92, 163);
+    width: 30%;
+    height: 17vh;
+    margin-right: 3rem;
+    /* position: relative; */
+}
+.img_principal{
+    width: 90%;
+    height: 16vh;
+    border-radius: 50%;
+    /* position: relative; */
+}
+.p_texto{
+    background: #E5E5E5;
+    align-items: center;
+    margin: auto;
+}
+.paragrafo{
+    border: 0.1rem solid #63458A;
+    padding: 4rem;
+    margin-top: 4rem;
+    margin-bottom: 6.5rem;
+    font-size: 2.5rem;
+}
+.img_historia{
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+    border: 1px solid  #63458A;
+    height: 50vh;
+}
+.section_autora{
+    display: flex;
+    background: #E4B7E5;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.img_autora{
+    width: 25%;
+    height: auto;
+    margin-right: 2rem;
+    margin-left: 5rem;
+
+}
+.ul_autora{
+    display: block;
+    font-weight: bold;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.a_li{
+margin-left: -0.1rem;
+}
+.div_btn{
+    text-align: center;
+}
+footer{
+    background: #323534;
+    display: block;
+    margin-top: 3rem;
+    width: 100%;
+    height: auto;
+}
+.div_footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.5rem;
+}
+.div_a_footer{
+display: block;
+}
+.a_facebook{
+    align-items: center;
+    align-content: center;
+}
+.p_footer{
+    align-items: center;
+    display: flex;
+    background: #292A2A;
+    color: #ffffff;
+    font-size: 1rem;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
