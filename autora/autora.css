@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;   
+}
+body{
+    font-family: "Montserrat";
+}
+li,a{
+    text-decoration: none;
+    color: #ffffff;
+    list-style: none;
+    margin: 0;
+    /* margin: 1rem; */
+}
+h1{
+        color: #ffffff;
+        font-size: 5rem;
+        text-align: center;
+        align-content: flex-end;
+}
+h2{
+    font-size: 3.6rem;
+    margin-bottom: 5rem;
+    color: #63458A;
+    margin-top: 4rem;
+}
+p, p>a{
+    font-size: 2rem;
+    color: #63458A;
+    height: auto;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+img{
+    max-width: 1000px;
+    height: auto;
+    width: 30%;
+}
+button{
+    width: 20%;
+    height: 7vh;
+    color: #ffffff;
+    background: #C083B9;
+    font-weight: bold;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.navegacao{ 
+    background: rgb(111, 92, 163);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 15vh;
+    
+    }
+    
+.div_nav{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: flex-end;
+    align-items:  center;
+    width: 100%;
+    
+}
+
+.img-m-maravilhosa{
+    width: 20%;
+    height: auto;
+    margin: 1rem;
+}
+.div_a{
+    font-size: 1.5rem;
+    align-items:  center;
+    flex-wrap: wrap;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+.div_a_nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-right: 2rem;
+}
+.img_nav{
+    width: 25px;
+    height: 25px;
+    margin: 1rem;
+}
+.banner{
+    background: url(../img/bg-banner-claro.png) no-repeat 100%;
+    background-size: cover;
+    max-width: 100%;
+    width: 100%;
+    height: 65vh;
+}
+main{
+display: block;
+justify-content: center;
+text-align: center;
+margin: 10rem;
+}
+/* .section_autora{
+    
+} */
+.div_img_autora{
+    display: flex;
+}
+.img_autora{
+    width: 20rem;
+    height: 20rem;
+}
+.div_paragrafo_autora{
+display: block;
+}
+.div_borda{
+border-bottom:0.2rem solid #63458A;
+margin: 5rem;
+width: 25%;
+margin-left: 45rem;
+}
+.img_sobre_outras{
+    width: 100%;
+    height: 65vh;
+}
+.ul_maravilhosas{
+    display: flex;
+    justify-content: center;
+}
+.li_maravilhosas{
+margin: 2rem;
+}
+.img_outras{
+    width: 15rem;
+    height: 15rem;
+    
+}
+
+footer{
+    background: #323534;
+    display: block;
+    margin-top: 3rem;
+    width: 100%;
+    height: auto;
+}
+.div_footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.5rem;
+}
+.div_a_footer{
+display: block;
+}
+.a_facebook{
+    align-items: center;
+    align-content: center;
+}
+.p_footer{
+    align-items: center;
+    display: flex;
+    background: #292A2A;
+    color: #ffffff;
+    font-size: 1rem;
+    justify-content: center;
+    width: 100%;
+    height: 3vh;
+}
